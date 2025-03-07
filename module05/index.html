@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module 06 Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="#" method="POST">
+
+    <fieldset> 
+      <legend>Personal Info</legend>
+      <p>Required fields are marked in <span style="color: red;">RED</span>.</p>
+
+      <label for="full_name" id="red">Full Name:</label>
+      <input type="text" name="full_name" required>
+
+      <label for="email" id="red">Email Address:</label>
+      <input type="email" name="email" required>
+
+      <label for="password" id="red">Password:</label>
+      <input type="password" name="password" required>
+
+      <label for="dob" id="red">Date of Birth:</label>
+      <input type="date" name="dob">
+    </fieldset>
+    
+    <fieldset class="hobbies">
+      <legend>Hobbies</legend>
+
+      <label for="Drawing">Drawing</label>
+      <input type="radio" id="Drawing" name="hobby">
+
+      <label for="Skiing">Skiing</label>
+      <input type="radio" id="Skiing" name="hobby">
+
+      <label for="Fighting">Fighting</label>
+      <input type="radio" id="Fighting" name="hobby">
+    </fieldset>
+
+    <fieldset>
+      <legend>Language for the Program</legend>
+      <label for="program_language">Select Language:</label>
+      <select name="language" id="program_language">
+        <option value="html">HTML</option>
+        <option value="javascript">JavaScript</option>
+        <option value="css">CSS</option>
+        <option value="python">Python</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Comments</legend>
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Agreeing to Terms and Conditions</legend>
+      <input type="checkbox" name="agree" id="agree" required>
+      <label for="agree" class="check">Check the box if you agree</label>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</body>
+</html>
 
