@@ -1,0 +1,45 @@
+form {
+background-color:darkblue;
+border: 10px solid aqua;
+}
+
+legend {
+  font-size: 20px;
+  color: lightskyblue;
+  font-weight: bold;
+}
+
+#red {
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  color: aqua;
+}
+
+button:hover {
+  background-color: aqua;
+  color: darkblue;
+  cursor: pointer;
+}
+
+input, 
+select, 
+textarea {
+  padding: 10px;
+  border: 2px solid lightskyblue;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.hobbies {
+  color: aqua;
+}
+
+.check {
+  color: aqua;
+}
